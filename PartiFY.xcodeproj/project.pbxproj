@@ -11,6 +11,7 @@
 		2C17F70C22C517970058F273 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C17F70B22C517970058F273 /* User.swift */; };
 		2C17F70E22C518CE0058F273 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C17F70D22C518CE0058F273 /* Ticket.swift */; };
 		2C17F71022C5EB6E0058F273 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C17F70F22C5EB6E0058F273 /* Card.swift */; };
+		2C2A7DCC22DFF39B004F8106 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A7DCB22DFF39B004F8106 /* Artwork.swift */; };
 		2CDE6A5322C254E000B62FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE6A5222C254E000B62FB6 /* AppDelegate.swift */; };
 		2CDE6A5522C254E000B62FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE6A5422C254E000B62FB6 /* ViewController.swift */; };
 		2CDE6A5A22C254E100B62FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDE6A5922C254E100B62FB6 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		2C17F70B22C517970058F273 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2C17F70D22C518CE0058F273 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		2C17F70F22C5EB6E0058F273 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2C2A7DCB22DFF39B004F8106 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		2CDE6A4F22C254E000B62FB6 /* PartiFY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartiFY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDE6A5222C254E000B62FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDE6A5422C254E000B62FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		2C2A7DCD22DFF3B2004F8106 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A7DCB22DFF39B004F8106 /* Artwork.swift */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
 		2CDE6A4622C254E000B62FB6 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 		2CDE6A5122C254E000B62FB6 /* PartiFY */ = {
 			isa = PBXGroup;
 			children = (
+				2C2A7DCD22DFF3B2004F8106 /* layouts */,
 				2C17F70422C5131A0058F273 /* models */,
 				2CDE6A8422C265EA00B62FB6 /* Services */,
 				2CDE6A5222C254E000B62FB6 /* AppDelegate.swift */,
@@ -312,6 +323,7 @@
 				2C17F71022C5EB6E0058F273 /* Card.swift in Sources */,
 				2CDE6A5322C254E000B62FB6 /* AppDelegate.swift in Sources */,
 				2C17F70C22C517970058F273 /* User.swift in Sources */,
+				2C2A7DCC22DFF39B004F8106 /* Artwork.swift in Sources */,
 				2C17F70A22C5138C0058F273 /* Party.swift in Sources */,
 				2CDE6A9522C3CD1500B62FB6 /* TicketController.swift in Sources */,
 			);
